@@ -10,4 +10,7 @@ public class ItemStrings {
     public static final String nIngotSilver = "ingotSilver";
     public static final String nIngotAluminum = "ingotAluminum";
     public static final String nIngotLead = "ingotLead";
+    public static final String nIngotBrass = "ingotBrass";
+    public static final String nIngotBronze = "ingotBronze";
+    public static final String nIngotSteel = "ingotSteel";
 }

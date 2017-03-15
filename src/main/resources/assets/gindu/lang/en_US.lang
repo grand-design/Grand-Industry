@@ -4,6 +4,18 @@ item.ingotTin.name=Tin Ingot
 item.ingotSilver.name=Silver Ingot
 item.ingotAluminum.name=Aluminum Ingot
 item.ingotLead.name=Lead Ingot
+item.ingotBrass.name=Brass Ingot
+item.ingotBronze.name=Bronze Ingot
+item.ingotSteel.name=Steel Ingot
+#Ingot Block Localizations
+tile.blockCopper.name=Copper Block
+tile.blockTin.name=Tin Block
+tile.blockSilver.name=Silver Block
+tile.blockAluminum.name=Aluminum Block
+tile.blockLead.name=Lead Block
+tile.blockBrass.name=Brass Block
+tile.blockBronze.name=Bronze Block
+tile.blockSteel.name=Steel Block
 #Ore Localizations
 tile.oreCopper.name=Copper Ore
 tile.oreTin.name=Tin Ore

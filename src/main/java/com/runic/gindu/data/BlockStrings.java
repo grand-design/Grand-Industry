@@ -12,4 +12,13 @@ public class BlockStrings {
     public static final String nOreLead = "oreLead";
     public static final String nOreEViridian = "oreEViridian";
     public static final String nOreECerulean = "oreECerulean";
+
+    public static final String nBlockCopper = "blockCopper";
+    public static final String nBlockTin = "blockTin";
+    public static final String nBlockSilver = "blockSilver";
+    public static final String nBlockAluminum = "blockAluminum";
+    public static final String nBlockLead = "blockLead";
+    public static final String nBlockBrass = "blockBrass";
+    public static final String nBlockBronze = "blockBronze";
+    public static final String nBlockSteel = "blockSteel";
 }

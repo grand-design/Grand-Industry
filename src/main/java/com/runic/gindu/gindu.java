@@ -4,6 +4,7 @@ import com.runic.gindu.blocks.ModBlocks;
 import com.runic.gindu.data.ModStrings;
 import com.runic.gindu.items.ModItems;
 import com.runic.gindu.proxies.CommonProxy;
+import com.runic.gindu.recipes.ModRecipes;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -29,7 +30,7 @@ public class gindu {
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event){
-
+        ModRecipes.init();
     }
 
     @Mod.EventHandler

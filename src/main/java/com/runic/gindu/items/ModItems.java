@@ -14,6 +14,9 @@ public class ModItems {
     public static ItemBase ingotSilver;
     public static ItemBase ingotAluminum;
     public static ItemBase ingotLead;
+    public static ItemBase ingotBrass;
+    public static ItemBase ingotBronze;
+    public static ItemBase ingotSteel;
 
     public static void init(){
         ingotCopper = register(new ItemBase(ItemStrings.nIngotCopper));
@@ -21,6 +24,9 @@ public class ModItems {
         ingotSilver = register(new ItemBase(ItemStrings.nIngotSilver));
         ingotAluminum = register(new ItemBase(ItemStrings.nIngotAluminum));
         ingotLead = register(new ItemBase(ItemStrings.nIngotLead));
+        ingotBrass = register(new ItemBase(ItemStrings.nIngotBrass));
+        ingotBronze = register(new ItemBase(ItemStrings.nIngotBronze));
+        ingotSteel = register(new ItemBase(ItemStrings.nIngotSteel));
     }
 
     private static <T extends Item> T register(T item){

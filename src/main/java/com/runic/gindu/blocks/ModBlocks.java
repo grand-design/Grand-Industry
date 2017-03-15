@@ -17,6 +17,14 @@ public class ModBlocks {
     public static BlockOre oreSilver;
     public static BlockOre oreEViridian;
     public static BlockOre oreECerulean;
+    public static BlockIngotBlock blockCopper;
+    public static BlockIngotBlock blockTin;
+    public static BlockIngotBlock blockSilver;
+    public static BlockIngotBlock blockAluminum;
+    public static BlockIngotBlock blockLead;
+    public static BlockIngotBlock blockBrass;
+    public static BlockIngotBlock blockBronze;
+    public static BlockIngotBlock blockSteel;
 
     public static void init(){
         oreCopper = register(new BlockOre(BlockStrings.nOreCopper));
@@ -26,6 +34,14 @@ public class ModBlocks {
         oreSilver = register(new BlockOre(BlockStrings.nOreSilver));
         oreEViridian = register(new BlockOre(BlockStrings.nOreEViridian));
         oreECerulean = register(new BlockOre(BlockStrings.nOreECerulean));
+        blockCopper = register(new BlockIngotBlock(BlockStrings.nBlockCopper));
+        blockTin = register(new BlockIngotBlock(BlockStrings.nBlockTin));
+        blockSilver = register(new BlockIngotBlock(BlockStrings.nBlockSilver));
+        blockAluminum = register(new BlockIngotBlock(BlockStrings.nBlockAluminum));
+        blockLead = register(new BlockIngotBlock(BlockStrings.nBlockLead));
+        blockBrass = register(new BlockIngotBlock(BlockStrings.nBlockBrass));
+        blockBronze = register(new BlockIngotBlock(BlockStrings.nBlockBronze));
+        blockSteel = register(new BlockIngotBlock(BlockStrings.nBlockSteel));
     }
 
     private static <T extends Block> T register(T block, ItemBlock itemBlock){
