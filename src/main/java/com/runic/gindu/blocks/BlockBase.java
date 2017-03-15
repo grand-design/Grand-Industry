@@ -14,7 +14,7 @@ public class BlockBase extends Block{
 
     public BlockBase(Material material, String name){
         super(material);
-        this.name = name;
+        this.name = name;//Requires subclasses to super block id
         setUnlocalizedName(name);
         setRegistryName(name);
         setCreativeTab(ginduTab.creativeTab);

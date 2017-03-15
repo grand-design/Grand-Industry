@@ -9,7 +9,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
  * This file was born into existence by our overlord RunicEnergy on 14Mar2017 at 19:47.
  */
 public class ModBlocks {
-
+    //Declare Ores
     public static BlockOre oreCopper;
     public static BlockOre oreTin;
     public static BlockOre oreAluminum;
@@ -17,6 +17,7 @@ public class ModBlocks {
     public static BlockOre oreSilver;
     public static BlockOre oreEViridian;
     public static BlockOre oreECerulean;
+    //Declare Ingot Blocks
     public static BlockIngotBlock blockCopper;
     public static BlockIngotBlock blockTin;
     public static BlockIngotBlock blockSilver;
@@ -27,6 +28,7 @@ public class ModBlocks {
     public static BlockIngotBlock blockSteel;
 
     public static void init(){
+        //Register Ores
         oreCopper = register(new BlockOre(BlockStrings.nOreCopper));
         oreTin = register(new BlockOre(BlockStrings.nOreTin));
         oreAluminum = register(new BlockOre(BlockStrings.nOreAluminum));
@@ -34,6 +36,7 @@ public class ModBlocks {
         oreSilver = register(new BlockOre(BlockStrings.nOreSilver));
         oreEViridian = register(new BlockOre(BlockStrings.nOreEViridian));
         oreECerulean = register(new BlockOre(BlockStrings.nOreECerulean));
+        //Register Ingot Blocks
         blockCopper = register(new BlockIngotBlock(BlockStrings.nBlockCopper));
         blockTin = register(new BlockIngotBlock(BlockStrings.nBlockTin));
         blockSilver = register(new BlockIngotBlock(BlockStrings.nBlockSilver));

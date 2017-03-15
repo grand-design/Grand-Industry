@@ -9,7 +9,7 @@ import net.minecraft.block.material.Material;
 public class BlockOre extends BlockBase{
 
     public BlockOre(String name){
-        super(Material.ROCK, name);
+        super(Material.ROCK, name);//Sets all subclasses to inherit ROCK material
         setHardness(3f);
         setResistance(5f);
     }

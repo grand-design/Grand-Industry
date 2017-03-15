@@ -10,14 +10,14 @@ import net.minecraft.item.Item;
  */
 public class ginduTab extends CreativeTabs{
 
-    public static final ginduTab creativeTab = new ginduTab();
+    public static final ginduTab creativeTab = new ginduTab(); //Provides instance of Creative Tab for reference in other classes
 
     public ginduTab(){
-        super(ModStrings.MODID);
+        super(ModStrings.MODID); //Gets Mod ID for Creative Tab id
     }
 
     @Override
     public Item getTabIconItem(){
-        return ModItems.ingotCopper;
+        return ModItems.ingotCopper; //Sets icon of Creative Tab
     }
 }

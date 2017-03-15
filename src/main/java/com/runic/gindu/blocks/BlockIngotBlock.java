@@ -9,7 +9,7 @@ import net.minecraft.block.material.Material;
 public class BlockIngotBlock extends BlockBase{
 
     public BlockIngotBlock(String name){
-        super(Material.IRON, name);
+        super(Material.IRON, name);//Sets all subclasses to inherit IRON material
         setHardness(6f);
         setResistance(10f);
     }

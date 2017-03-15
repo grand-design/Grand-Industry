@@ -4,7 +4,7 @@ package com.runic.gindu.data;
  * This file was born into existence by our overlord RunicEnergy on 14Mar2017 at 19:46.
  */
 public class ItemStrings {
-
+    //Ingot Item IDs
     public static final String nIngotCopper = "ingotCopper";
     public static final String nIngotTin = "ingotTin";
     public static final String nIngotSilver = "ingotSilver";

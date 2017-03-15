@@ -24,13 +24,13 @@ public class gindu {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
-        ModItems.init();
-        ModBlocks.init();
+        ModItems.init(); //Initializes items
+        ModBlocks.init(); //Initializes blocks
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event){
-        ModRecipes.init();
+        ModRecipes.init(); //Initializes recipes
     }
 
 

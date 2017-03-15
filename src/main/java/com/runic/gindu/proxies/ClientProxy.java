@@ -11,6 +11,7 @@ import net.minecraftforge.client.model.ModelLoader;
 public class ClientProxy extends CommonProxy{
     @Override
     public void registerItemRenderer(Item item, int meta, String id){
+        //Points Minecraft to resource location of textures based on params
         ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(ModStrings.MODID + ":" + id, "inventory"));
     }
 }

@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
  * This file was born into existence by our overlord RunicEnergy on 14Mar2017 at 19:47.
  */
 public class ModItems {
-
+    //Declare Ingots
     public static ItemBase ingotCopper;
     public static ItemBase ingotTin;
     public static ItemBase ingotSilver;
@@ -19,6 +19,7 @@ public class ModItems {
     public static ItemBase ingotSteel;
 
     public static void init(){
+        //Register Ingots
         ingotCopper = register(new ItemBase(ItemStrings.nIngotCopper));
         ingotTin = register(new ItemBase(ItemStrings.nIngotTin));
         ingotSilver = register(new ItemBase(ItemStrings.nIngotSilver));

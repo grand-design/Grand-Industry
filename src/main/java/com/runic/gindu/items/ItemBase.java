@@ -12,14 +12,14 @@ public class ItemBase extends Item{
     protected String name;
 
     public ItemBase(String name){
-        this.name = name;
+        this.name = name;//Requires subclasses to super item ID
         setUnlocalizedName(name);
         setRegistryName(name);
         setCreativeTab(ginduTab.creativeTab);
     }
 
     public void registerItemModel(){
-        gindu.proxy.registerItemRenderer(this, 0, name);
+        gindu.proxy.registerItemRenderer(this, 0, name);//Feeds stuff to ClientProxy for texture loading
     }
 
 }
