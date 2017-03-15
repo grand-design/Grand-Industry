@@ -9,11 +9,29 @@
 #################################################
 :deobfCompileDummyTask
 :deobfProvidedDummyTask
-:ideaModule
-:ideaProject
-:ideaWorkspace
-:idea
+:getVersionJson
+:extractUserdev
+:extractDependencyATs SKIPPED
+:extractMcpData SKIPPED
+:extractMcpMappings
+:genSrgs SKIPPED
+:downloadClient SKIPPED
+:downloadServer SKIPPED
+:splitServerJar SKIPPED
+:mergeJars SKIPPED
+:deobfMcSRG SKIPPED
+:decompileMc SKIPPED
+:fixMcSources
+:applySourcePatches SKIPPED
+:remapMcSources SKIPPED
+:recompileMc SKIPPED
+:extractNatives SKIPPED
+:getAssetIndex UP-TO-DATE
+:getAssets
+Current status: 545/1112   49%
+:makeStart
+:setupDecompWorkspace
 
 BUILD SUCCESSFUL
 
-Total time: 5.623 secs
+Total time: 36.674 secs
