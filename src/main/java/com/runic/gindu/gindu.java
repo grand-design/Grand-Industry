@@ -1,6 +1,8 @@
 package com.runic.gindu;
 
+import com.runic.gindu.blocks.ModBlocks;
 import com.runic.gindu.data.ModStrings;
+import com.runic.gindu.items.ModItems;
 import com.runic.gindu.proxies.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -21,7 +23,8 @@ public class gindu {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
-
+        ModItems.init();
+        ModBlocks.init();
     }
 
     @Mod.EventHandler
